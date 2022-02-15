@@ -1,7 +1,7 @@
 // abstract: Product
 class Transport {
   deliver() {
-    throw new Error('Method not implemented');
+    throw new Error('Method is not implemented');
   }
 }
 
@@ -20,7 +20,7 @@ class Ship extends Transport {
 // abstract: Creator
 class Logistics {
   static createTrasport() {
-    throw new Error('Method not implemented');
+    throw new Error('Method is not implemented');
   }
 }
 
